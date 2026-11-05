@@ -13,17 +13,17 @@
         </div>
         <div class="nav-links">
             
-            <a href="page1.html" class="btn" > Button1 </a>
-            <a href="page2.html" class="btn" > Button2 </a>
-            <a href="page3.html" class="btn" > Button3 </a>
-            <a href="page4.html" class="btn" > Button4 </a>
+            <a href="page1.html" class="btn" > About Me </a>
+            <a href="page2.html" class="btn" > My Goal </a>
+            <a href="page3.html" class="btn" > Hack Club </a>
+            <a href="page4.html" class="btn" > Coding </a>
         </div>
 
     </header>
     <section class="bar">
         <h2>Welcome to My Interactive Website</h2>
         <p> I want to get better at creating websites</p>
-        <a href="page2.html" class="btn">Click here to go to My Goal</a>
+        <button class="btn bar-btn" onclick="pickpage()">Click here to go to a random page</button>
     </section>
     <h1>Welcome To My Website</h1>
     <p>This is an interactive website with 5 pages, Index.html, page1.html, page2.html, page3.html, and page4.html.
@@ -31,6 +31,13 @@
         The navigation bar includes 4 buttons that let you switch between the pages.
         The navigation bar is the same on all 5 pages. The logo, in the very left redirects to the main page, index.html.
         This is the page you are currently on.
-</p>
-    
+    </p>
+    <script>
+        const pages = ['page1.html', 'page2.html', 'page3.html', 'page4.html'];
+        function pickpage() {
+            const randomIndex = Math.floor(Math.random() * pages.length);
+            window.location.href = pages[randomIndex];
+
+        }
+    </script>
 </body>

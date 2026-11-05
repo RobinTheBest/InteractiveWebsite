@@ -12,7 +12,7 @@ body {
 
 }
 .btn:hover{
-    background-color: rgba(7, 142, 166, 0.3);
+    background-color: rgba(0, 98, 54, 0.3);
     transform: TranslateY(-2px);
 }
 .btn:active{
@@ -29,8 +29,7 @@ body {
 
 
 }
-#aboutme{
-}
+
 #logo{
 color:gold;
 background-color: rgba(0,0,0,0);
@@ -69,4 +68,11 @@ width:50%;
 .bar-btn{
     font-size:20px;
     padding:14px 28px;
+    background-color:rgba(3, 0, 162, 0.536);
+}
+button{
+    border:none;
+    cursor:pointer;
+    font-family: inherit;
+    display: inline-block;
 }
