@@ -1,3 +1,36 @@
 body {
     background-color: #f0f0f0;
+    margin:0;
+}
+.btn{
+    background-color: rgba(0, 174, 6,0.3);
+    font-size: 30px;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color:aqua;
+
+}
+.top-bar {background-color: #b700ff;
+    
+    padding:10px;
+    padding-left: 30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+#aboutme{
+}
+#logo{
+color:gold;
+background-color: rgba(0,0,0,0);
+}
+h1{
+    margin:0;
+}
+.nav-links{
+    display:flex;
+    gap:30px;
 }
